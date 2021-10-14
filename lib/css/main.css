@@ -33,7 +33,7 @@ body {
   align-items: center;
   flex-direction: column;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 769px) {
   .container {
     margin-top: auto;
   }
@@ -51,7 +51,7 @@ body {
   background-color: white;
   color: #1d1e35;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 769px) {
   .container .card {
     height: 430px;
     flex-direction: row;
@@ -67,7 +67,7 @@ body {
   background-position: 0.8em 0.2em;
   height: 110px;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 769px) {
   .container .card-image {
     position: relative;
     width: 50%;
@@ -97,7 +97,7 @@ body {
 .container .card-image_mobile {
   transform: translate(-0.8em, -6.7em);
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 769px) {
   .container .card-image_mobile {
     width: 400px;
     transform: translate(-0.8em, 5em);
@@ -109,7 +109,7 @@ body {
   left: 0;
   height: 0;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 769px) {
   .container .card-image_desktop {
     width: 150px;
     height: auto;
@@ -124,7 +124,7 @@ body {
   font-size: 12px;
   overflow: hidden;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 769px) {
   .container .card .tabs {
     width: 50%;
     height: 100%;
@@ -136,7 +136,7 @@ body {
   font-weight: 700;
   text-align: center;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 769px) {
   .container .card .tabs h1 {
     text-align: left;
     padding-bottom: 0.5em;
@@ -157,7 +157,7 @@ body {
   cursor: pointer;
   transition: all 300ms ease-in-out;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 769px) {
   .container .card .tabs .tab-label {
     width: 95%;
   }
@@ -196,7 +196,7 @@ body {
   opacity: 0;
   transition: all 300ms ease-in-out;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 769px) {
   .container .card .tabs .tab-content {
     transition: all 300ms ease-in-out;
   }

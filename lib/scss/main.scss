@@ -30,7 +30,7 @@ body {
 	margin-right: auto;
 	@include flex(center, column);
 
-	@media screen and (min-width: 376px) {
+	@media screen and (min-width: 769px) {
 		margin-top: auto;
 	}
 
@@ -44,7 +44,7 @@ body {
 		background-color: white;
 		color: $primary-text-color;
 
-		@media screen and (min-width: 376px) {
+		@media screen and (min-width: 769px) {
 			height: 430px;
 			flex-direction: row;
 			width: 67%;
@@ -59,7 +59,7 @@ body {
 			background-position: 0.8em 0.2em;
 			height: 110px;
 
-			@media screen and (min-width: 376px) {
+			@media screen and (min-width: 769px) {
 				position: relative;
 				width: 50%;
 				background-image: url(../../images/bg-pattern-desktop.svg);
@@ -91,7 +91,7 @@ body {
 			&_mobile {
 				transform: translate(-0.8em, -6.7em);
 
-				@media screen and (min-width: 376px) {
+				@media screen and (min-width: 769px) {
 					width: 400px;
 					transform: translate(-0.8em, 5em);
 				}
@@ -102,7 +102,7 @@ body {
 				top: 0;
 				left: 0;
 				height: 0;
-				@media screen and (min-width: 376px) {
+				@media screen and (min-width: 769px) {
 					width: 150px;
 					height: auto;
 					transform: translate(-4.55em, 11em);
@@ -118,7 +118,7 @@ body {
 			font-size: $fs;
 			overflow: hidden;
 
-			@media screen and (min-width: 376px) {
+			@media screen and (min-width: 769px) {
 				width: 50%;
 				height: 100%;
 				padding: 2em 4em 5em 1em;
@@ -129,7 +129,7 @@ body {
 				font-weight: $fw-bold;
 				text-align: center;
 
-				@media screen and (min-width: 376px) {
+				@media screen and (min-width: 769px) {
 					text-align: left;
 					padding-bottom: 0.5em;
 				}
@@ -147,7 +147,7 @@ body {
 					cursor: pointer;
 					@include transition();
 
-					@media screen and (min-width: 376px) {
+					@media screen and (min-width: 769px) {
 						width: 95%;
 					}
 
@@ -190,7 +190,7 @@ body {
 					opacity: 0;
 					@include transition();
 
-					@media screen and (min-width: 376px) {
+					@media screen and (min-width: 769px) {
 						@include transition();
 					}
 
